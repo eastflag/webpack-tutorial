@@ -7,8 +7,8 @@ import {area, circumference} from './js/circle';
 // default import 하는 방법: {} 없이 이름을 마음대로 바꿀수 있다.
 import a from './js/cube';
 
-import '../style.css';
-import '../hello.scss';
+import './style.css';
+import './hello.scss';
 
 console.log(area(5), circumference(5));
 
