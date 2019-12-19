@@ -14,7 +14,7 @@ console.log(area(5), circumference(5));
 
 console.log(a(5));
 
-function component() {
+const component = () => {
   console.log('webpack test');
   let element = document.createElement('div');
 
