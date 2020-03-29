@@ -10,6 +10,8 @@ import a from './js/cube';
 import './style.css';
 import './hello.scss';
 
+import treeImage from './assets/images/img_tree.gif';
+
 console.log(area(5), circumference(5));
 
 console.log(a(5));
@@ -20,6 +22,10 @@ const component = () => {
 
   // Lodash, currently included via a script, is required for this line to work
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+
+  const img = document.createElement('img');
+  img.src = treeImage;
+  element.appendChild(img);
 
   return element;
 }
