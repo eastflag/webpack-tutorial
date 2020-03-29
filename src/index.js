@@ -16,7 +16,7 @@ console.log(a(5));
 
 const component = () => {
   console.log('webpack test');
-  let element = document.createElement('div');
+  let element = document.getElementById('root');
 
   // Lodash, currently included via a script, is required for this line to work
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
