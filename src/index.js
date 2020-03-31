@@ -23,9 +23,9 @@ const component = () => {
   // Lodash, currently included via a script, is required for this line to work
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-  const img = document.createElement('img');
-  img.src = treeImage;
-  element.appendChild(img);
+  // const img = document.createElement('img');
+  // img.src = treeImage;
+  // element.appendChild(img);
 
   return element;
 }
