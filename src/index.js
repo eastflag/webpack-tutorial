@@ -5,7 +5,7 @@ import _ from 'lodash';
 // named import 하는 방법: { 이름 }
 import {area, circumference} from './js/circle';
 // default import 하는 방법: {} 없이 이름을 마음대로 바꿀수 있다.
-import a from './js/cube';
+import cube from './js/cube';
 
 import './style.css';
 import './hello.scss';
@@ -14,7 +14,7 @@ import treeImage from './assets/images/img_tree.gif';
 
 console.log(area(5), circumference(5));
 
-console.log(a(5));
+console.log(cube.bulk(5));
 
 const component = () => {
   console.log('webpack test');
